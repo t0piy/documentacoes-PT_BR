@@ -1,2 +1,2 @@
-# documentacoes-PT_BR
+# Documentações PT-BR
 Documentações traduzidas em Português brasileiro.
