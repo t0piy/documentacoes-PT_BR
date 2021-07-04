@@ -43,15 +43,15 @@ Como alternativa, consulte as instruções do desenvolvedor para saber como veri
     -h, --help                           Exibe este texto de ajuda e sai
     --version                            Exibe a versão do programa e sai
     -U, --update                         Atualiza este programa para a versão mais
-					 recente. Certifique-se de que você tem
-					 permissões suficientes (execute com sudo
-					 se necessário)
+                                         recente. Certifique-se de que você tem
+                                         permissões suficientes (execute com sudo
+                                         se necessário)
     -i, --ignore-errors                  Continuar ao receber erros de download, 
-					 por exemplo, para pular vídeos
-					 indisponíveis em uma playlist
+                                         por exemplo, para pular vídeos
+                                         indisponíveis em uma playlist
     --abort-on-error                     Abortar o download dos demais vídeos (na
                                          playlist ou na linha de comando) se
-					 ocorrer um erro
+                                         ocorrer um erro
     --dump-user-agent                    Mostra a identificação do navegador atual
     --list-extractors                    Lista todos os extratores suportados
     --extractor-descriptions             Descrições de saída de todos os extratores
@@ -63,12 +63,12 @@ Como alternativa, consulte as instruções do desenvolvedor para saber como veri
                                          ////PRECISA DE AJUDA NA TRADUÇÃO////
                                          /////////////. Use o valor "auto"
                                          para deixar que o youtube-dl adivinhe
-					 ("auto_warning" "auto_warning" para emitir
-					 um aviso ao adivinhar). "error" apenas
-					 envia um erro. O valor padrão "fixup_error"
-					 repara URLs quebrados, porém emite
+                                         ("auto_warning" "auto_warning" para emitir
+                                         um aviso ao adivinhar). "error" apenas
+                                         envia um erro. O valor padrão "fixup_error"
+                                         repara URLs quebrados, porém emite
                                          um erro se isso não for possível, em
-					 vez de pesquisar.
+                                         vez de pesquisar.
     --ignore-config                      Não lê os arquivos de configuração. Quando
                                          fornecido no arquivo de configuração global
                                          /etc/youtube-dl.conf: Não leia a configuração
@@ -77,9 +77,9 @@ Como alternativa, consulte as instruções do desenvolvedor para saber como veri
                                          Windows)
     --config-location PATH               Localização do arquivo de configuração;
                                          o caminho para a configuração ou 
-					 o diretório que o contém.
+                                         o diretório que o contém.
     --flat-playlist                      Não extrai os vídeos de uma playlist,
-					 apenas lista-os. 
+                                         apenas lista-os. 
     --mark-watched                       Marcar vídeos como assistido (Apenas YouTube)
     --no-mark-watched                    Não marcar vídeos como assistido (Apenas
                                          YouTube)
