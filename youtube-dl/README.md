@@ -84,3 +84,16 @@ Como alternativa, consulte as instruções do desenvolvedor para saber como veri
     --no-mark-watched                    Não marcar vídeos como assistido (Apenas
                                          YouTube)
     --no-color                           Não emitir códigos de core na saída
+
+## Opções de rede:
+    --proxy URL                          Use o proxy HTTP/HTTPS/SOCKS especificado.
+                                         proxy. Para habilitar o proxy SOCKS,
+                                         especifique um esquema apropriado.
+                                         Por exemplo socks5://127.0.0.1:1080/.
+                                         Passe uma string vazia (--proxy "")
+                                         para conexão direta
+    --socket-timeout SECONDS             Tempo de espera antes de desistir, em
+                                         segundos
+    --source-address IP                  Endereço IP do cliente para vincular
+    -4, --force-ipv4                     Faça todas as conexões via IPv4
+    -6, --force-ipv6                     Faça todas as conexões via IPv6
