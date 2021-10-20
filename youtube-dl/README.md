@@ -49,9 +49,9 @@ Como alternativa, consulte as instruções do desenvolvedor para saber como veri
     -i, --ignore-errors                  Continuar ao receber erros de download, 
                                          por exemplo, para pular vídeos
                                          indisponíveis em uma playlist
-    --abort-on-error                     Abortar o download dos demais vídeos (na
-                                         playlist ou na linha de comando) se
-                                         ocorrer um erro
+    --abort-on-error                     Abortar o download dos vídeos restantes (na
+                                         playlist ou na linha de comando) caso
+                                         ocorra um erro
     --dump-user-agent                    Mostra a identificação do navegador atual
     --list-extractors                    Lista todos os extratores suportados
     --extractor-descriptions             Descrições de saída de todos os extratores
@@ -71,13 +71,13 @@ Como alternativa, consulte as instruções do desenvolvedor para saber como veri
                                          vez de pesquisar.
     --ignore-config                      Não lê os arquivos de configuração. Quando
                                          fornecido no arquivo de configuração global
-                                         /etc/youtube-dl.conf: Não leia a configuração
+                                         /etc/youtube-dl.conf: Não lê a configuração
                                          do usuário em ~/.config/youtube-dl/config
                                          (%APPDATA%/youtube-dl/config.txt no
                                          Windows)
     --config-location PATH               Localização do arquivo de configuração;
                                          o caminho para a configuração ou 
-                                         o diretório que o contém.
+                                         o diretório onde está localizado.
     --flat-playlist                      Não extrai os vídeos de uma playlist,
                                          apenas lista-os. 
     --mark-watched                       Marcar vídeos como assistido (Apenas YouTube)
